@@ -1,0 +1,6 @@
+# syntax 2 = lstobj = sorted(iterable-object,reverse=False)
+tup= (50,48,10,30,900,20,2000)
+print(tup,type(tup),id(tup))
+lst = sorted(tup,reverse=False)
+tup=tuple(lst)
+print(tup,type(tup),id(tup))
